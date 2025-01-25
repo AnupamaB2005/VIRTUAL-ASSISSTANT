@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Lilita+One&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    height:100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    justify-content: center; 
+    align-items: center;             
+}
+  
+img {
+    max-width: 50%;        
+    height: auto;
+  }
+h1{
+    color: aliceblue;
+    font-family: "Lilita One", serif;
+    font-size: 40px;
+}
+#name{
+    color: rgb(2, 255, 255);
+    font-size: 55px;
+}
+#va{
+    color:rgb(233, 114, 233);
+    font-size: 55px;
+}
+#voice{
+    width: 150px;
+    display: none;
+}
+#btn{
+    width: 30%;
+    background:linear-gradient(to right,rgb(224, 6, 191),rgb(8, 242, 234));
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    border-radius: 25px;
+    color: aliceblue;
+    box-shadow: 4px 4px 10px rgb(224, 6, 191),2px 2px 10px rgb(8, 242, 234);
+    transition: all 1s;
+    cursor: pointer;
+}
+#btn:hover{
+    box-shadow: 4px 4px 20px rgb(224, 6, 191),2px 2px 20px rgb(8, 242, 234);
+    letter-spacing: 2px;
+}
